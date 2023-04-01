@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    background: url(image/bgimg.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.keys{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+}
+.key{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: auto ;
+    justify-content: space-between;
+    transition: 0.5s;
+    box-shadow: 0 0 10px;
+}
+.key kbd{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 5px;
+}
+.key .sound{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.playing{
+    border: 5px solid gold;
+    translate: scale(1.1);
+    box-shadow: 0 0 10px;
+}

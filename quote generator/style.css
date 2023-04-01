@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: url(bgimg1.jfif) no-repeat center center/cover;
+    text-align: center;
+}
+.container{
+    height: 450px;
+    width: 550px;
+}
+header{
+    font-size: 1.3rem;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 80%;
+    margin: 20px auto;
+}
+.mainContent{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    color: black;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 2px;
+}
+.mainContent .textArea{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.mainContent .person{
+    color: rgb(176, 14, 14);
+    margin-top: 10px;
+}
+.buttonArea button{
+    font-size: 1.3rem;
+    background-color: rgb(16, 15, 15);
+    color: white;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.buttonArea button:active{
+    background-color: lightblue;
+}
+
