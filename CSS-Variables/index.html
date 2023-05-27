@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <title>CSS-Variables</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="heading">
+            <h1>Play With The Image from the Options</h1>
+        </div>
+
+        <div class="controls">
+            <label for="spacing">Spacing : </label>
+            <input type="range" name="spacing" min="0" max="200" values="10" data-sizing="px">
+
+            <label for="blur">Blur : </label>
+            <input type="range" name="blur" min="3" max="25" values="5" data-sizing="px">
+
+            <label for="color">Color : </label>
+            <input type="color" value="#f5b642">
+        </div>
+
+        <img src="img.jpg" alt="Image">
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
